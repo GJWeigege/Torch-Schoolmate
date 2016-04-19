@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Microsoft YaHei";
+}
+.contain{
+    margin: 6% 0 4% 4%;
+}
+.div_first{
+    margin:5% 0;
+}
+.div_first span{
+    color: gray;
+}
+b{
+    color: black;
+}
+.div_first span p{
+    float: right;
+    margin-right: 5%;
+}
+.div_second{
+    color: gray;
+    font-size: 14px;
+    margin: 5% 0;
+}
+.div_second span{
+    margin-right: 5%;
+}
+.div_third{
+    color: gray;
+    margin: 5% 0;
+}
+hr{
+    width: 90%;
+    margin-right: auto;
+}
+span{
+    margin: 5% 0;
+}
+pre{
+    font-size: 14px;
+    color: black;
+    margin: 5% 0;
+}
+.div_fourth{
+    text-align: center;
+}
+button{
+    width: 30%;
+    margin: 5px 5%;
+    border-style: none;
+    color: white;
+    height: 40px;
+    background-color: rgb(52,52,102);
+    font-size: 20px;
+    box-shadow: 1px 5px 6px rgb(163,163,163);
+    border-radius: 3px;
+}

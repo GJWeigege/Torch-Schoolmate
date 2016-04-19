@@ -1,0 +1,15 @@
+@charset  "utf-8";
+.success-head, .success-body {
+	background: #fff;
+}
+.success-head {
+	/*color: #343466;*/
+}
+.success-head img {
+	width: 40px;
+	vertical-align: middle;
+	margin: 10px 10px 10px 0;
+}
+.success-body {
+	margin-top: 20px;
+}
