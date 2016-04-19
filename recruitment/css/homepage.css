@@ -7,6 +7,9 @@
 body{
     background-color: rgb(243,243,243);
 }
+a{
+    text-decoration: none;
+}
 #divFirst{
     background-color: white;
     text-align: center;
@@ -33,4 +36,44 @@ body{
     font-size: 20px;
     height: 35px;
     display: inline-block;
+}
+.practice,.fullTime{
+    margin:3% 0;
+    background-color: rgb(255,255,255);
+    padding: 7px;
+    display: block;
+}
+.fullTime .fullTime_bg{
+    background-color: rgb(110,206,253);
+}
+.practice .practice_bg{
+    background-color: rgb(106,202,37);
+}
+.practice_bg,.fullTime_bg{
+    width: 50px;
+    height: 50px;
+    float: left;
+    color: rgb(255,255,255);
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    margin: 5px;
+}
+span{
+    color: black;
+}
+span.company{
+    color: rgb(128,128,128);
+    font-weight: bold;
+}
+.practice span.salary{
+    color: rgb(106,202,37);
+}
+.fullTime span.salary{
+    color: rgb(110,206,253);
+}
+span p{
+    float: right;
+    color: gray;
+    margin-right: 5%;
 }
